@@ -1,0 +1,12 @@
+.container {
+  max-width: 1200px;
+  padding-inline: 24px;
+}
+
+.hero-title {
+  font-size: 64px;
+}
+
+.services-list {
+  grid-template-columns: repeat(3, 1fr);
+}
