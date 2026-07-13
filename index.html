@@ -30,7 +30,6 @@
             height="48"
           /><span>Studio 316</span>
         </a>
-
         <nav class="header-nav">
           <ul>
             <li><a href="#">Home</a></li>
@@ -42,7 +41,7 @@
         </nav>
         <button
           type="button"
-          class="header-burger-btn"
+          class="menu-open-btn"
           type="button"
           aria-label="Відкрити меню"
           aria-expanded="false"
@@ -60,5 +59,28 @@
     </header>
     <main></main>
     <footer></footer>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <button type="button" class="menu-close-btn" aria-label="Закрити меню">
+        X
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li>
+            <a class="mobile-menu-link" href="#about">O nas</a>
+          </li>
+          <li>
+            <a class="mobile-menu-link" href="#services">Salon fryzjerski</a>
+          </li>
+          <li>
+            <a class="mobile-menu-link" href="#courses">Akademia piękna</a>
+          </li>
+          <li>
+            <a class="mobile-menu-link" href="#contacts">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script type="module" src="./src/js/menu.js"></script>
   </body>
 </html>
