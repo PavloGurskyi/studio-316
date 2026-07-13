@@ -12,6 +12,17 @@ body {
   display: none;
 }
 
+/*header*/
+.header-container span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/*hero*/
+
 .hero-title {
   font-size: 32px;
 }
