@@ -2,6 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+button:active {
+  background-color: transparent;
+  outline: none;
+}
+
 .container {
   width: 100%;
   padding-inline: 16px;
