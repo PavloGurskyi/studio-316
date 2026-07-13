@@ -5,9 +5,18 @@ body {
 button {
   -webkit-tap-highlight-color: transparent;
 }
+.header-logo-box {
+  -webkit-tap-highlight-color: transparent;
+}
 
 button:focus,
 button:active {
+  background-color: transparent;
+  outline: none;
+}
+
+.header-logo-box:focus,
+.header-logo-box:active {
   background-color: transparent;
   outline: none;
 }
